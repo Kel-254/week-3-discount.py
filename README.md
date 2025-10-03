@@ -1,13 +1,29 @@
-Discount Calculator
-A simple Python program that calculates the final price of an item after applying a discount, only if the discount percentage is 20% or higher.
+🧮 Discount Calculator
+📖 Overview
 
-Features
-Takes the original price and discount percentage as input from the user.
-Applies the discount only if it is 20% or greater.
-Returns the original price if the discount is less than 20%.
-Handles invalid (non-numeric) input.
-How It Works
+A simple Python program that calculates the final price of an item only if the discount percentage is 20% or higher.
+If the discount is less than 20%, the program ignores it and returns the original price.
+
+✨ Features
+
+🖊 Takes the original price and discount percentage as input.
+
+🎯 Applies the discount only when it is ≥ 20%.
+
+🛑 If the discount is below 20%, the original price is returned.
+
+🔒 Handles invalid input (non-numeric values) gracefully.
+
+⚙️ How It Works
+
 The user is prompted to enter the original price of the item.
+
 The user is prompted to enter the discount percentage.
-If the discount is 20% or more, the program calculates and displays the discounted price.
-If the discount is less than 20%, the program displays the original price.
+
+Logic applied:
+
+If discount ≥ 20% → program calculates and displays discounted price.
+
+If discount < 20% → program displays the original price.
+
+The program prevents crashes by handling invalid inputs.
